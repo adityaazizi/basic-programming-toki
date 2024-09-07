@@ -6,14 +6,11 @@ int main() {
 
     if (total_bebek % 13 == 0) {
         cout << 13 << endl;
-    }
-    if (total_bebek % 11 == 0) {
+    } else if (total_bebek % 11 == 0) {
         cout << 11 << endl;
-    }
-    if (total_bebek % 5 == 0) {
+    } else if (total_bebek % 5 == 0) {
         cout << 5 << endl;
-    }
-    if (total_bebek % 3 == 0) {
+    } else if (total_bebek % 3 == 0) {
         cout << 3 << endl;
     } else {
         cout << 1 << endl;
